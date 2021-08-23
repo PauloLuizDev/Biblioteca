@@ -37,8 +37,16 @@
                 
                 @foreach(Emprestimo e in Model)
                 {
+                    string Classe = "";
+                    if((System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao) > 0))
+                    {
+                        Classe = "text-danger";
+                    }
+
+                <tr class="@Classe">
+                {
                     
-                <tr>
+                }">
                     <td>@e.Id</td>
                     <td>@e.NomeUsuario</td>
                     <td>@e.DataEmprestimo.ToString("dd/MM/yyyy")</td>
