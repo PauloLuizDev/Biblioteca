@@ -10,7 +10,7 @@ namespace Biblioteca.Controllers
     {
         public static void CheckLogin(Controller controller)
         {   
-            if(string.IsNullOrEmpty(controller.HttpContext.Session.GetString("user")))
+            if(string.IsNullOrEmpty(controller.HttpContext.Session.GetString("login")))
             {
                 controller.Request.HttpContext.Response.Redirect("/Home/Login");
             }
@@ -32,7 +32,7 @@ namespace Biblioteca.Controllers
                 else
                 {
                     controller.HttpContext.Session.SetString("login",ListaUsuarioEncontrado[0].Login);
-                    controller.HttpContext.Session.SetString("Nome",ListaUsuarioEncontrado[0].Nome);
+                    controller.HttpContext.Session.SetString("nome",ListaUsuarioEncontrado[0].Nome);
                     controller.HttpContext.Session.SetInt32("tipo",ListaUsuarioEncontrado[0].Tipo);
                     return true;
                 }
@@ -47,6 +47,7 @@ namespace Biblioteca.Controllers
                     admin.Senha = criptografo.TextoCriptografado("123");
                     admin.Tipo = Usuario.ADMIN;
                     admin.Nome = "Administrador";
+                    admin.Login = "admin";
 
                     bc.usuarios.Add(admin);
                     bc.SaveChanges();
