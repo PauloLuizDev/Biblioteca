@@ -1,6 +1,6 @@
-@model ICollection<Emprestimo>
+@model List<Usuario>
 @{
-    ViewData["Title"] = "Listagem de Empréstimos";
+    ViewData["Title"] = "Listagem de Usuarios";
 }
 <div class="row">
     <div class="col-md-12">
@@ -25,9 +25,9 @@
         <table class="table table-striped"> 
             <thead>
                 <tr><th>Id</th>
-                <th>Usuario</th>
-                <th>Data Empréstimo</th>
-                <th>Data Devolução</th>
+                <th>Nome</th>
+                <th>Login</th>
+                <th>Senha</th>
                 <th>Livro</th>
                 <th>Autor</th>
                 <th></th>
