@@ -1,7 +1,7 @@
 @model ICollection<Emprestimo>
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
-    int filtroPorPag = Int32.Parse(ViewData["EmprestimoPorPagina"].ToString());
+    int filtroPorPag = Int32.Parse(ViewData["NumEmprestimoPorPagina"].ToString());
     int PaginaAtual = Int32.Parse(ViewData["PaginaAtual"].ToString());
     int NumEmprestimosPorPag = (Model.Count < filtroPorPag ? Model.Count : filtroPorPag);
     int NumTotalDePag = Model.Count/NumEmprestimosPorPag + (Model.Count%NumEmprestimosPorPag==0 ? 0 : 1);

@@ -22,7 +22,7 @@ namespace Biblioteca.Controllers
                 verificaSeUsuarioAdminExiste(bc);
 
                 senha = criptografo.TextoCriptografado(senha);
-                IQueryable<Usuario> UsuarioEncontrado = bc.usuarios.Where(u => u.Login == login && u.Senha==senha);
+                IQueryable<Usuario> UsuarioEncontrado = bc.Usuarios.Where(u => u.Login == login && u.Senha==senha);
                 List<Usuario>ListaUsuarioEncontrado = UsuarioEncontrado.ToList();
 
                 if(ListaUsuarioEncontrado.Count==0)
@@ -40,7 +40,7 @@ namespace Biblioteca.Controllers
             }
         }
             public static void verificaSeUsuarioAdminExiste(BibliotecaContext bc){
-                IQueryable<Usuario> userEncontrado = bc.usuarios.Where(u => u.Login == "admin");
+                IQueryable<Usuario> userEncontrado = bc.Usuarios.Where(u => u.Login == "admin");
 
                 if(userEncontrado.ToList().Count == 0){
                     Usuario admin = new Usuario();
@@ -49,7 +49,7 @@ namespace Biblioteca.Controllers
                     admin.Nome = "Administrador";
                     admin.Login = "admin";
 
-                    bc.usuarios.Add(admin);
+                    bc.Usuarios.Add(admin);
                     bc.SaveChanges();
                 }
             }

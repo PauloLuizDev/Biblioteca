@@ -1,29 +1,19 @@
-@model Usuario
+@model Livro
 <div class="row justify-content-md-center">
-    <form asp-action="Cadastro" method="POST" class="col-md-4 needs-validation">
-
-            <legend>Usuario</legend>
-            <div class="form-group">
-                <label asp-for="Usuario.Nome">Nome</label>
-                <input asp-for="Usuario.Nome" class="form-control" required/>
-            </div>
-            <div class="form-group">
-                <label asp-for="Usuario.Login">Login</label>
-                <input asp-for="Usuario.Login" class="form-control" required/>
-            </div>
->
-            <div class="form-group">
-                <label asp-for="Usuario.Senha">Senha</label>
-                <input type="password" asp-for="Usuario.Senha" class="form-control" required/>
-            </div>
-            <div class="form-group">
-                <label asp-for="Usuario.tipo">Tipo</label>
-                <select asp-for="Usuario.tipo" class="form-control" required>
-                        <option value="1">Usuario</option>
-                        <option value="0">Administrador</option>
-
-                </select>
-            </div>
+    <form asp-action="Cadastro" method="POST" class="col-md-4">
+        <input type="hidden" asp-for="Id" required/>
+        <div class="form-group">
+            <label asp-for="Titulo">Título</label>
+            <input asp-for="Titulo" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Autor">Autor</label>
+            <input asp-for="Autor" class="form-control" required/>
+        </div>
+        <div>
+            <label asp-for="Ano">Ano</label>
+            <input asp-for="Ano" required/>
+        </div>
         <input type="submit" value="Salvar" class="btn btn-primary"/>
     </form>
 </div>

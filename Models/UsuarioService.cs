@@ -11,7 +11,7 @@ namespace Biblioteca.Models
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.usuarios.ToList();
+                return bc.Usuarios.ToList();
             }
             
         }
@@ -19,7 +19,7 @@ namespace Biblioteca.Models
         public Usuario Listar(int id){
             using (BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.usuarios.Find(id);
+                return bc.Usuarios.Find(id);
             }
         }
 
@@ -35,7 +35,8 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                Usuario u = bc.usuarios.Find(userEditado.Id);
+                //Usuario u = bc.Usuarios.Find(userEditado.Id);
+                Usuario u = bc.Usuarios.First( user => user.Id == userEditado.Id);
 
                 u.Login = userEditado.Login;
                 u.Nome = userEditado.Nome;
@@ -49,7 +50,7 @@ namespace Biblioteca.Models
         public void ExcluirUsuario(int id){
             using (BibliotecaContext bc = new BibliotecaContext())
             {
-                bc.usuarios.Remove(bc.usuarios.Find(id));
+                bc.Usuarios.Remove(bc.Usuarios.Find(id));
                 bc.SaveChanges();   
             }
         }
