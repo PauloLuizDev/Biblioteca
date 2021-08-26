@@ -62,3 +62,6 @@ C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Biblioteca.csproj
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Biblioteca.dll
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Biblioteca.pdb
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Biblioteca.genruntimeconfig.cache
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Razor\Views\Usuario\editarUsuario.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Razor\Views\Usuario\ListaDeUsuarios.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.0\Razor\Views\Usuario\RegistrarUsuarios.cshtml.g.cs
