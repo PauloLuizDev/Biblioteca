@@ -14417,8 +14417,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\editarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14464,6 +14474,11 @@
     {
       "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\RegistrarUsuarios.cshtml",
       "FileKind": "mvc"
     },
     {

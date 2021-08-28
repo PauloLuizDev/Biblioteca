@@ -13,9 +13,7 @@ C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Microsoft.EntityF
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\MySqlConnector.dll
-C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csprojAssemblyReference.cache
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.AssemblyInfoInputs.cache
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.AssemblyInfo.cs
@@ -64,3 +62,6 @@ C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\Microsoft.Extensi
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\editarUsuario.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListaDeUsuarios.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\RegistrarUsuarios.cshtml.g.cs
