@@ -55,3 +55,6 @@ C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\ref\Biblioteca.dl
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\Biblioteca.pdb
 C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\Biblioteca.genruntimeconfig.cache
 C:\Users\paulo\VisualStudio\Biblioteca\bin\Debug\netcoreapp5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\Razor\Views\Usuario\editarUsuario.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\Razor\Views\Usuario\ListaDeUsuarios.cshtml.g.cs
+C:\Users\paulo\VisualStudio\Biblioteca\obj\Debug\netcoreapp5.0\Razor\Views\Usuario\RegistrarUsuarios.cshtml.g.cs

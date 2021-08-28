@@ -47,29 +47,16 @@ namespace Biblioteca.Controllers
             UsuarioService us = new UsuarioService();
             us.incluirUsuario(novoUser);
 
-            return RedirectToAction("CadastroRealizado");
+            return RedirectToAction("ListaDeUsuarios");
 
         }
 
         public IActionResult ExcluirUsuario(int id)
         {
-            return View(new UsuarioService().Listar(id));
-        }
-
-        [HttpPost]
-        public IActionResult ExcluirUsuario(string decisao, int id)
-        {
-            if(decisao == "Excluir")
-            {
                 ViewData["Mensagem"] = "Exclusão do usuario "+new UsuarioService().Listar(id).Nome+"realizada com sucesso.";
                 new UsuarioService().ExcluirUsuario(id);
+
                 return View("ListaDeUsuarios", new UsuarioService().Listar());
-            }
-            else
-            {
-                ViewData["Mensagem"] = "Exclusão Cancelada";
-                return View("ListaDeUsuarios", new UsuarioService().Listar());
-            }
         }
 
         public IActionResult cadastroRealizado(){

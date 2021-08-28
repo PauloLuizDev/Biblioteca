@@ -1,0 +1,110 @@
+{
+  "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Biblioteca.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "Biblioteca",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
+      "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
+      "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\editarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Livro\\_FormCadastro.cshtml",
+      "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
+      "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
+      "TargetPath": "Views\\Livro\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Home\\Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
+      "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
+      "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\paulo\\VisualStudio\\Biblioteca\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

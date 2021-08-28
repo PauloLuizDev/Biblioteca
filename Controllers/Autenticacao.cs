@@ -10,7 +10,7 @@ namespace Biblioteca.Controllers
     {
         public static void CheckLogin(Controller controller)
         {   
-            if(string.IsNullOrEmpty(controller.HttpContext.Session.GetString("user")))
+            if(string.IsNullOrEmpty(controller.HttpContext.Session.GetString("login")))
             {
                 controller.Request.HttpContext.Response.Redirect("/Home/Login");
             }
@@ -22,7 +22,7 @@ namespace Biblioteca.Controllers
                 verificaSeUsuarioAdminExiste(bc);
 
                 senha = criptografo.TextoCriptografado(senha);
-                IQueryable<Usuario> UsuarioEncontrado = bc.usuarios.Where(u => u.Login == login && u.Senha==senha);
+                IQueryable<Usuario> UsuarioEncontrado = bc.Usuarios.Where(u => u.Login == login && u.Senha==senha);
                 List<Usuario>ListaUsuarioEncontrado = UsuarioEncontrado.ToList();
 
                 if(ListaUsuarioEncontrado.Count==0)
@@ -32,7 +32,7 @@ namespace Biblioteca.Controllers
                 else
                 {
                     controller.HttpContext.Session.SetString("login",ListaUsuarioEncontrado[0].Login);
-                    controller.HttpContext.Session.SetString("Nome",ListaUsuarioEncontrado[0].Nome);
+                    controller.HttpContext.Session.SetString("nome",ListaUsuarioEncontrado[0].Nome);
                     controller.HttpContext.Session.SetInt32("tipo",ListaUsuarioEncontrado[0].Tipo);
                     return true;
                 }
@@ -40,15 +40,16 @@ namespace Biblioteca.Controllers
             }
         }
             public static void verificaSeUsuarioAdminExiste(BibliotecaContext bc){
-                IQueryable<Usuario> userEncontrado = bc.usuarios.Where(u => u.Login == "admin");
+                IQueryable<Usuario> userEncontrado = bc.Usuarios.Where(u => u.Login == "admin");
 
                 if(userEncontrado.ToList().Count == 0){
                     Usuario admin = new Usuario();
                     admin.Senha = criptografo.TextoCriptografado("123");
                     admin.Tipo = Usuario.ADMIN;
                     admin.Nome = "Administrador";
+                    admin.Login = "admin";
 
-                    bc.usuarios.Add(admin);
+                    bc.Usuarios.Add(admin);
                     bc.SaveChanges();
                 }
             }
